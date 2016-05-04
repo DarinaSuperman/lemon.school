@@ -1,0 +1,23 @@
+span {
+      text-decoration: underline;
+      color: #00008B;
+    }
+    figcaption {
+      font-size: 19px;
+    }
+    img {
+      width: 300px;
+      border: 4px double #ff00ff;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    footer {
+      border-bottom: 2px dashed #000;
+    }.text {
+      text-align: left;
+      border-left: 4px dashed #8A2BE2;
+    }
+a {
+      color: DarkGreen;
+    }

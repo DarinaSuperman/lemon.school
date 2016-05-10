@@ -1,0 +1,86 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	border-left: 2px dotted #000;
+	border-right: 2px dotted #000;
+}
+.logo {
+	text-align: center;
+	width: 180px;
+	display: block;
+	padding-left: 30px;
+	text-decoration: none;
+}
+.logo span {
+	display: inline-block;
+	color: black;
+	font-size: 20px;
+}
+nav li {
+	display: inline-block;
+}
+.header-nav {
+	border-style: solid;
+      border-color: black;
+      border-width: 4px 0;
+      padding-left: 30px;
+      margin-top: 40px;
+}
+.header-nav a {
+      font-size: 20px;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 20px;
+      color: black;
+}
+.header-nav a:hover {
+      color: white;
+      background-color: black;
+}
+h1, h2, p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.content {
+	padding: 30px;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 30px;
+}
+p {
+	font-size: 22px;
+}
+.content img {
+	width: 100%;
+}
+.footer-nav {
+      text-align: center;
+      font-size: 12px;
+}
+footer {
+      padding: 30px;
+      background-color: black;
+      color: white;
+}
+.footer-nav a{
+	color: white;
+	text-decoration: none;
+}
+.footer-nav li {
+	padding: 0 10px;
+}
+.footer-nav a:hover {
+      border-bottom: 1px dashed white;
+}
+.logo:hover {
+      opacity: 0.8;
+}

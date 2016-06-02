@@ -1,0 +1,64 @@
+/* Батарейки */
+.b {
+	width: 150px;
+	height: 50px;
+	border: 4px solid #000;
+	margin-bottom: 10px;
+	position: relative;
+
+}
+.b::before, .b::after {
+	content: ' ';
+	position: absolute;
+}
+.b::after {
+	width:  10px;
+	height: 20px;
+	background: #000;
+	right: -10px;
+	top: 15px;
+}
+.b::before {
+	height: 100%;
+}
+.red::before {
+	width: 33%;
+	background: red;
+}
+.yellow::before {
+	width: 66%;
+	background: yellow;
+}
+.green::before {
+	width: 100%;
+	background: green;
+}
+/* Вырезаные уголки */
+.sd {
+  color: white;
+  width: 300px;
+  height: 100px;
+  background-color: #008000;
+ box-shadow: 10px 0 0 -5px #008000, -10px 0 0 -5px #008000;
+  /* vertical-align: center; */
+}
+p {
+  margin-left: 5%;
+  padding-top: 13%;
+  /* vertical-align: middle; */
+}
+/* Миленькая кнопка:) */
+a.knopka {
+  color: #000; 
+  text-decoration: none; 
+  /* background: pink; */ 
+   background: linear-gradient(#ffb0d4, #ffb5d7, #ffc8e1, #ffb5d7, #ffb0d4);
+  padding: .9em 3.5em; 
+   border-radius: 100px;
+} 
+a.knopka:hover { 
+	background: #d9488a; 
+} 
+a.knopka:active {
+	background: #b25780; 
+} 

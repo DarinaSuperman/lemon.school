@@ -1,0 +1,28 @@
+table {
+	  border-collapse: collapse; 
+	  width: 1153px;
+	  height: 261px;
+	  margin-left: 100px;
+ }
+ table, th, td {
+	border-style:solid;
+	border-width:1px;
+	border-collapse:collapse;
+	padding:2px;
+	text-align: left;
+	font-size: 21px;
+	border-color: #e2e2e2;
+}
+th {
+	height: 53px;
+}
+.ts1 {
+	background-color: #f9f9f9;
+}
+td {
+	height: 53px;
+	font-size: 21px;
+}
+tbody tr:hover {
+	background-color: #f5f5f5;
+}

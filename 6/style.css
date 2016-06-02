@@ -1,0 +1,44 @@
+
+body{
+background: #ffffff;
+}
+ul{
+margin: 0;
+padding: 0;
+}
+ul.nm li {
+background: #4682B4;
+border: 1px solid #BEBEBE;
+list-style: none;
+width: 250px;
+}
+ul.nm li a {
+text-decoration: none;
+display: block;
+padding: 5px 5px 5px 15px;
+}
+ul.nm li ul {
+display: none; 
+}
+ul.nm li:hover {
+position: relative;
+background: #778899;
+}
+ul.nm li:hover > ul {
+display: block;
+}
+ul.nm li:hover ul{
+position: absolute;
+top: 0;
+left: 250px; 
+}
+
+img {
+  float: right;
+}
+body {
+  background: #CCFFFF;
+}
+/* menu-nav {
+  float: left;
+} */
